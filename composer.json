@@ -1,0 +1,17 @@
+{
+	"name": "mr/my-recipes-core",
+	"description": "My Recipes core plugin",
+	"type": "wordpress-plugin",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"mr\\my_recipes_core_admin\\": "admin/",
+			"mr\\my_recipes_core_front\\": "front/",
+			"mr\\my_recipes_core_includes\\": "includes/"
+		}
+	},
+	"require": {
+        "php": ">=7.0.0"
+	}
+}

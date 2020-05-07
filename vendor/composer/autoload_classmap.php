@@ -7,10 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'mr\\my_recipes_core_admin\\Admin' => $baseDir . '/admin/class-admin.php',
-    'mr\\my_recipes_core_admin\\Change_WP_Contacts' => $baseDir . '/admin/class-change-wp-contacts.php',
+    'mr\\my_recipes_core_admin\\Recipes_Cpt' => $baseDir . '/admin/class-recipes-cpt.php',
     'mr\\my_recipes_core_admin\\Social_Links' => $baseDir . '/admin/class-social-links.php',
     'mr\\my_recipes_core_front\\Front' => $baseDir . '/front/class-front.php',
-    'mr\\my_recipes_core_front\\Social_Links' => $baseDir . '/front/class-social-links.php',
     'mr\\my_recipes_core_includes\\Activator' => $baseDir . '/includes/class-activator.php',
     'mr\\my_recipes_core_includes\\Deactivator' => $baseDir . '/includes/class-deactivator.php',
     'mr\\my_recipes_core_includes\\I18n' => $baseDir . '/includes/class-i18n.php',

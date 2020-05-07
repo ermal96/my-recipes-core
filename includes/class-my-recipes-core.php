@@ -16,6 +16,7 @@ namespace mr\my_recipes_core_includes;
 
 use mr\my_recipes_core_admin\Admin;
 use mr\my_recipes_core_admin\Social_Links;
+use mr\my_recipes_core_admin\Recipes_Cpt;
 
 /**
  * The core plugin class.
@@ -130,9 +131,11 @@ class My_Recipes_Core {
 
 		$plugin_admin  = Admin::get_instance();
 		$plugin_social = Social_Links::get_instance();
+		$recipes_cpt   = Recipes_Cpt::get_instance();
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
+		$this->loader->add_action( 'init', $recipes_cpt, 'create_cpt_recipes' );
 
 		$this->loader->add_action( 'admin_menu', $plugin_social, 'add_plugin_page' );
 		$this->loader->add_action( 'admin_init', $plugin_social, 'page_init' );
@@ -146,8 +149,6 @@ class My_Recipes_Core {
 	 * @access   private
 	 */
 	private function define_front_hooks() {
-
-	
 
 	}
 

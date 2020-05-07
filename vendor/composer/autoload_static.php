@@ -32,10 +32,9 @@ class ComposerStaticInitb1b4cb615c4dfbb39d0c7d46757854dc
 
     public static $classMap = array (
         'mr\\my_recipes_core_admin\\Admin' => __DIR__ . '/../..' . '/admin/class-admin.php',
-        'mr\\my_recipes_core_admin\\Change_WP_Contacts' => __DIR__ . '/../..' . '/admin/class-change-wp-contacts.php',
+        'mr\\my_recipes_core_admin\\Recipes_Cpt' => __DIR__ . '/../..' . '/admin/class-recipes-cpt.php',
         'mr\\my_recipes_core_admin\\Social_Links' => __DIR__ . '/../..' . '/admin/class-social-links.php',
         'mr\\my_recipes_core_front\\Front' => __DIR__ . '/../..' . '/front/class-front.php',
-        'mr\\my_recipes_core_front\\Social_Links' => __DIR__ . '/../..' . '/front/class-social-links.php',
         'mr\\my_recipes_core_includes\\Activator' => __DIR__ . '/../..' . '/includes/class-activator.php',
         'mr\\my_recipes_core_includes\\Deactivator' => __DIR__ . '/../..' . '/includes/class-deactivator.php',
         'mr\\my_recipes_core_includes\\I18n' => __DIR__ . '/../..' . '/includes/class-i18n.php',

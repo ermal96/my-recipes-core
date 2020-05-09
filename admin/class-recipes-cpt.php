@@ -42,7 +42,7 @@ class Recipes_Cpt {
 	/**
 	 * Custom Post Type Name for banner.
 	 */
-	const CPT_KEY = 'recipes_cpt';
+	const CPT_KEY = 'recipe';
 
 	/**
 	 * Initialize the class and set its properties.
@@ -93,25 +93,20 @@ class Recipes_Cpt {
 					'item_published'        => __( 'Recipe  Published', 'my-recipes-core' ),
 					'item_updated'          => __( 'Recipe  Updated', 'my-recipes-core' ),
 				),
-				'menu_icon'           => 'dashicons-book-alt                ',
-				'show_in_rest'        => false,
+				'menu_icon'           => 'dashicons-book-alt',
+				'show_in_rest'        => true,
 				'public'              => true,
-				'with_front'          => false,
-				'exclude_from_search' => true,
-				'taxonomies'          => array( 'category', 'post_tag' ),
-
+				'with_front'          => true,
+				'has_archive'         => false,
+				'public'              => true,
+				'exclude_from_search' => false,
+				'taxonomies'          => array( 'collection' ),
 				'supports'            => array(
 					'title',
 					'thumbnail',
 					'revisions',
 					'custom-fields',
 					'post-formats',
-					'page-atributtes',
-					'excerpt',
-				),
-				'rewrite'             => array(
-					'with_front' => false,
-					'slug'       => __( 'recipe', 'my-recipes-core' ),
 				),
 			)
 		);

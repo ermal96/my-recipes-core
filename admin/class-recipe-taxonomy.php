@@ -98,6 +98,9 @@ class Recipes_Taxonomy {
 			'show_in_nav_menus' => true,
 			'show_in_rest'      => true,
 			'with_front'        => true,
+			'rewrite'             => array(
+				'slug' => __( 'collections', 'my-recipes-core' ),
+			),
 		);
 		register_taxonomy( $taxonomy, 'recipe', $args );
 	}

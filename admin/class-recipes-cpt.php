@@ -101,6 +101,9 @@ class Recipes_Cpt {
 				'public'              => true,
 				'exclude_from_search' => false,
 				'taxonomies'          => array( 'collection' ),
+				'rewrite'             => array(
+					'slug' => __( 'recipe', 'my-recipes-core' ),
+				),
 				'supports'            => array(
 					'title',
 					'thumbnail',

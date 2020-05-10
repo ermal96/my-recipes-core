@@ -78,8 +78,8 @@ class Social_Share {
 			'mr-social-share',
 			'mrSocialShare',
 			array(
-				'languageDomain'    => 'mr-recipes-core',
-				'messageLinkCopied' => __( 'Link added to the clipboard!', 'mr-recipes-core' ),
+				'languageDomain'    => 'my-recipes-core',
+				'messageLinkCopied' => __( 'Link added to the clipboard!', 'my-recipes-core' ),
 			)
 		);
 

@@ -4,15 +4,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My Recipes Core 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-recipes-core\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-05-10T13:31:21+02:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.4.0\n"
+"PO-Revision-Date: 2020-05-10 13:36+0200\n"
+"X-Generator: Poedit 2.3\n"
 "X-Domain: my-recipes-core\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sq\n"
 
 #. Plugin Name of the plugin
 msgid "My Recipes Core"
@@ -34,44 +36,42 @@ msgstr ""
 msgid "www.ermal.dev/"
 msgstr ""
 
-#: admin/class-recipe-taxonomy.php:72
-#: admin/class-recipe-taxonomy.php:74
-#: admin/class-recipe-taxonomy.php:75
-#: admin/class-recipe-taxonomy.php:86
+#: admin/class-recipe-taxonomy.php:72 admin/class-recipe-taxonomy.php:74
+#: admin/class-recipe-taxonomy.php:75 admin/class-recipe-taxonomy.php:86
 msgid "Collections"
-msgstr ""
+msgstr "Koleksionet"
 
 #: admin/class-recipe-taxonomy.php:73
 msgid "Collection"
-msgstr ""
+msgstr "Koleksion"
 
 #: admin/class-recipe-taxonomy.php:76
 msgid "Parent Item"
-msgstr ""
+msgstr "Prindi"
 
 #: admin/class-recipe-taxonomy.php:77
 msgid "Parent Item:"
-msgstr ""
+msgstr "Prindi"
 
 #: admin/class-recipe-taxonomy.php:78
 msgid "New Collection Name"
-msgstr ""
+msgstr "Shto emrin e koleksionit"
 
 #: admin/class-recipe-taxonomy.php:79
 msgid "Add Collection Item"
-msgstr ""
+msgstr "Shto Koleksion"
 
 #: admin/class-recipe-taxonomy.php:80
 msgid "Edit Collection"
-msgstr ""
+msgstr "Modifiko Koleksionin"
 
 #: admin/class-recipe-taxonomy.php:81
 msgid "Update Collection"
-msgstr ""
+msgstr "Përditëso Koleksionin"
 
 #: admin/class-recipe-taxonomy.php:82
 msgid "View Collection"
-msgstr ""
+msgstr "Shiko Koleksionin"
 
 #: admin/class-recipe-taxonomy.php:83
 msgid "Separate items with commas"
@@ -87,15 +87,15 @@ msgstr ""
 
 #: admin/class-recipe-taxonomy.php:87
 msgid "Search Collections"
-msgstr ""
+msgstr "Kerko Koleksionet"
 
 #: admin/class-recipe-taxonomy.php:88
 msgid "Not Found"
-msgstr ""
+msgstr "Nuk u gjetë "
 
 #: admin/class-recipe-taxonomy.php:89
 msgid "No Collections"
-msgstr ""
+msgstr "Nuk ka koleksione"
 
 #: admin/class-recipe-taxonomy.php:90
 msgid "Items list"
@@ -107,84 +107,84 @@ msgstr ""
 
 #: admin/class-recipe-taxonomy.php:92
 msgid "Back to Collections"
-msgstr ""
+msgstr "Kthehu ne faqen kryesore"
 
 #: admin/class-recipe-taxonomy.php:102
 msgid "collections"
-msgstr ""
+msgstr "koleksionet"
 
 #: admin/class-recipes-cpt.php:79
 msgid "Recipes"
-msgstr ""
+msgstr "Recetat"
 
 #: admin/class-recipes-cpt.php:80
 msgid "Recipe "
-msgstr ""
+msgstr "receta"
 
 #: admin/class-recipes-cpt.php:81
 msgid "Edit Recipe "
-msgstr ""
+msgstr "Modifiko Recetën"
 
 #: admin/class-recipes-cpt.php:82
 msgid "New Recipe "
-msgstr ""
+msgstr "Shto Recetë"
 
 #: admin/class-recipes-cpt.php:83
 msgid "View Recipe "
-msgstr ""
+msgstr "Shiko Recetën"
 
 #: admin/class-recipes-cpt.php:84
 msgid "Search Recipe"
-msgstr ""
+msgstr "Kerko Receta"
 
 #: admin/class-recipes-cpt.php:85
 msgid "Recipes Not Found"
-msgstr ""
+msgstr "Recetat nuk u gjetën"
 
 #: admin/class-recipes-cpt.php:86
 msgid "All Recipe"
-msgstr ""
+msgstr "Te gjitha recetat"
 
 #: admin/class-recipes-cpt.php:87
 msgid "Recipe Archives"
-msgstr ""
+msgstr "Arkivi Recetave"
 
 #: admin/class-recipes-cpt.php:88
 msgid "Recipe Attributes"
-msgstr ""
+msgstr "Atributet e recetes"
 
 #: admin/class-recipes-cpt.php:89
 msgid "Insert Into Recipe "
-msgstr ""
+msgstr "Shto tek receta"
 
 #: admin/class-recipes-cpt.php:90
 msgid "Recipe Image"
-msgstr ""
+msgstr "Imazhi recetes"
 
 #: admin/class-recipes-cpt.php:91
 msgid "Set Recipe  Image"
-msgstr ""
+msgstr "Vendos imazhin e recetës"
 
 #: admin/class-recipes-cpt.php:92
 msgid "Remove Recipe  Image"
-msgstr ""
+msgstr "Hiq imazhin e recetës"
 
 #: admin/class-recipes-cpt.php:93
 msgid "Recipe  Published"
-msgstr ""
+msgstr "Receta u publikua"
 
 #: admin/class-recipes-cpt.php:94
 msgid "Recipe  Updated"
-msgstr ""
+msgstr "Receta u perditsua"
 
 #: admin/class-recipes-cpt.php:105
 msgid "recipe"
-msgstr ""
+msgstr "receta"
 
 #: front/class-social-share.php:82
 msgid "Link added to the clipboard!"
-msgstr ""
+msgstr "Lidhja u shtua në klipboard!"
 
 #: front/partials/social-share-display.php:19
 msgid "Share on"
-msgstr ""
+msgstr "Shperndaje ne"

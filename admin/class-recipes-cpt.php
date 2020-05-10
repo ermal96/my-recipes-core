@@ -107,6 +107,7 @@ class Recipes_Cpt {
 					'revisions',
 					'custom-fields',
 					'post-formats',
+					'comments',
 				),
 			)
 		);

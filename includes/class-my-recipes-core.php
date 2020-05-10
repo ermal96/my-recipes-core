@@ -18,6 +18,7 @@ use mr\my_recipes_core_admin\Admin;
 use mr\my_recipes_core_admin\Social_Links;
 use mr\my_recipes_core_admin\Recipes_Cpt;
 use mr\my_recipes_core_admin\Recipes_Taxonomy;
+use mr\my_recipes_core_front\Social_Share;
 
 /**
  * The core plugin class.
@@ -152,6 +153,10 @@ class My_Recipes_Core {
 	 * @access   private
 	 */
 	private function define_front_hooks() {
+		$social_share = Social_Share::get_instance();
+
+		$this->loader->add_action( 'mr_social_share', $social_share, 'add_social_sharing', 11 );
+		$this->loader->add_action( 'wp_enqueue_scripts', $social_share, 'enqueue_scripts' );
 
 	}
 

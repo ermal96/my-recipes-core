@@ -11,6 +11,7 @@ return array(
     'mr\\my_recipes_core_admin\\Recipes_Taxonomy' => $baseDir . '/admin/class-recipe-taxonomy.php',
     'mr\\my_recipes_core_admin\\Social_Links' => $baseDir . '/admin/class-social-links.php',
     'mr\\my_recipes_core_front\\Front' => $baseDir . '/front/class-front.php',
+    'mr\\my_recipes_core_front\\Social_Share' => $baseDir . '/front/class-social-share.php',
     'mr\\my_recipes_core_includes\\Activator' => $baseDir . '/includes/class-activator.php',
     'mr\\my_recipes_core_includes\\Deactivator' => $baseDir . '/includes/class-deactivator.php',
     'mr\\my_recipes_core_includes\\I18n' => $baseDir . '/includes/class-i18n.php',

@@ -36,6 +36,7 @@ class ComposerStaticInitb1b4cb615c4dfbb39d0c7d46757854dc
         'mr\\my_recipes_core_admin\\Recipes_Taxonomy' => __DIR__ . '/../..' . '/admin/class-recipe-taxonomy.php',
         'mr\\my_recipes_core_admin\\Social_Links' => __DIR__ . '/../..' . '/admin/class-social-links.php',
         'mr\\my_recipes_core_front\\Front' => __DIR__ . '/../..' . '/front/class-front.php',
+        'mr\\my_recipes_core_front\\Social_Share' => __DIR__ . '/../..' . '/front/class-social-share.php',
         'mr\\my_recipes_core_includes\\Activator' => __DIR__ . '/../..' . '/includes/class-activator.php',
         'mr\\my_recipes_core_includes\\Deactivator' => __DIR__ . '/../..' . '/includes/class-deactivator.php',
         'mr\\my_recipes_core_includes\\I18n' => __DIR__ . '/../..' . '/includes/class-i18n.php',
